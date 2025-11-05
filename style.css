@@ -15,9 +15,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* ❌ Remoção do Degradê, substituído por um fundo escuro */
-    background-color: #121212; /* Fundo escuro (Dark Gray) */
+background: #000000;
+background: radial-gradient(circle,rgba(0, 0, 0, 1) 0%, rgba(26, 26, 26, 1) 26%, rgba(10, 10, 20, 1) 100%);
+    padding: 25px;
 }
 
 /* Container principal */
@@ -82,6 +82,13 @@ h1 {
     color: #121212;
     border-color: white;
     transform: translateY(-3px);
+}
+
+svg {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    fill: #555555;
 }
 
 /* Responsividade */
